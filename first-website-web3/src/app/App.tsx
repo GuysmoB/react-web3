@@ -5,11 +5,11 @@ import Main from "../components/main/main";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col bg-yellow-100 h-screen">
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
